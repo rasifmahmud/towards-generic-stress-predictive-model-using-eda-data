@@ -1,0 +1,47 @@
+###@###swell_eda_feature_engineered_nasa_tlx_with_id.arff
+$$$, weka.classifiers.trees.J48
+['-C', '0.25'], 99.868
+['-C', '0.3'], 99.8477
+['-C', '0.4'], 99.8782
+['-C', '0.45'], 99.8782
+['-U'], 99.8883
+###@###swell_eda_feature_engineered_nasa_tlx_with_id.arff
+$$$, weka.classifiers.functions.MultilayerPerceptron
+['-L', '.3', '-M', '0', '-H', 'a'], 87.2576
+['-L', '.5', '-M', '0', '-H', 'a'], 87.7551
+['-L', '.7', '-M', '0', '-H', 'a'], 65.9965
+['-L', '.3', '-M', '.9', '-H', 'a'], 55.3356
+['-L', '.5', '-M', '.9', '-H', 'a'], 35.3335
+['-L', '.7', '-M', '.9', '-H', 'a'], 35.3132
+['-L', '.7', '-M', '.9', '-H', '0'], 46.6849
+['-L', '.3', '-M', '0', '-H', '0'], 66.8291
+['-L', '.5', '-M', '0', '-H', '0'], 63.3871
+['-L', '.7', '-M', '0', '-H', '0'], 66.7784
+###@###swell_eda_feature_engineered_nasa_tlx_with_id.arff
+$$$, weka.classifiers.bayes.NaiveBayes
+['-batch-size', '200'], 45.3447
+['-batch-size', '100'], 45.3447
+['-batch-size', '50'], 45.3447
+['-batch-size', '20'], 45.3447
+###@###swell_eda_feature_engineered_nasa_tlx_with_id.arff
+$$$, weka.classifiers.trees.RandomForest
+['-P', '100', '-I', '100'], 99.9594
+['-P', '75', '-I', '100'], 99.9797
+['-P', '50', '-I', '100'], 99.9492
+['-P', '25', '-I', '100'], 99.9289
+['-P', '50', '-I', '200'], 99.9492
+###@###swell_eda_feature_engineered_nasa_tlx_with_id.arff
+$$$, weka.classifiers.meta.AdaBoostM1
+['-P', '100', '-S', '2', '-I', '10'], 49.8223
+['-P', '100', '-S', '2', '-I', '20'], 49.8223
+['-P', '100', '-S', '1', '-I', '10'], 49.8223
+['-P', '100', '-S', '1', '-I', '20'], 49.8223
+['-P', '100', '-S', '0', '-I', '10'], 49.8223
+['-P', '100', '-S', '0', '-I', '20'], 49.8223
+@@@, weka.classifiers.trees.J48, weka.classifiers.functions.MultilayerPerceptron, weka.classifiers.bayes.NaiveBayes, weka.classifiers.trees.RandomForest, weka.classifiers.meta.AdaBoostM1, 99.8477
+weka.classifiers.trees.J48, ['-U'], 99.8883
+weka.classifiers.functions.MultilayerPerceptron, ['-L', '.5', '-M', '0', '-H', 'a'], 87.7551
+weka.classifiers.bayes.NaiveBayes, ['-batch-size', '20'], 45.3447
+weka.classifiers.trees.RandomForest, ['-P', '75', '-I', '100'], 99.9797
+weka.classifiers.meta.AdaBoostM1, ['-P', '100', '-S', '0', '-I', '20'], 49.8223
+end

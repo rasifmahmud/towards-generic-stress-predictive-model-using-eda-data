@@ -1,0 +1,47 @@
+###@###separated_injected.arff
+$$$, weka.classifiers.trees.J48
+['-C', '0.25'], 94.2048
+['-C', '0.3'], 94.2756
+['-C', '0.4'], 94.2756
+['-C', '0.45'], 94.2756
+['-U'], 94.5525
+###@###separated_injected.arff
+$$$, weka.classifiers.functions.MultilayerPerceptron
+['-L', '.3', '-M', '0', '-H', 'a'], 53.1745
+['-L', '.5', '-M', '0', '-H', 'a'], 45.396
+['-L', '.7', '-M', '0', '-H', 'a'], 53.4449
+['-L', '.3', '-M', '.9', '-H', 'a'], 28.5319
+['-L', '.5', '-M', '.9', '-H', 'a'], 17.0251
+['-L', '.7', '-M', '.9', '-H', 'a'], 54.5654
+['-L', '.7', '-M', '.9', '-H', '0'], 28.0103
+['-L', '.3', '-M', '0', '-H', '0'], 55.3381
+['-L', '.5', '-M', '0', '-H', '0'], 55.8661
+['-L', '.7', '-M', '0', '-H', '0'], 44.6619
+###@###separated_injected.arff
+$$$, weka.classifiers.bayes.NaiveBayes
+['-batch-size', '200'], 29.6716
+['-batch-size', '100'], 29.6716
+['-batch-size', '50'], 29.6716
+['-batch-size', '20'], 29.6716
+###@###separated_injected.arff
+$$$, weka.classifiers.trees.RandomForest
+['-P', '100', '-I', '100'], 96.5293
+['-P', '75', '-I', '100'], 96.51
+['-P', '50', '-I', '100'], 96.0657
+['-P', '25', '-I', '100'], 94.8358
+['-P', '50', '-I', '200'], 96.1236
+###@###separated_injected.arff
+$$$, weka.classifiers.meta.AdaBoostM1
+['-P', '100', '-S', '2', '-I', '10'], 54.5654
+['-P', '100', '-S', '2', '-I', '20'], 54.5654
+['-P', '100', '-S', '1', '-I', '10'], 54.5654
+['-P', '100', '-S', '1', '-I', '20'], 54.5654
+['-P', '100', '-S', '0', '-I', '10'], 54.5654
+['-P', '100', '-S', '0', '-I', '20'], 54.5654
+@@@, weka.classifiers.trees.J48, weka.classifiers.functions.MultilayerPerceptron, weka.classifiers.bayes.NaiveBayes, weka.classifiers.trees.RandomForest, weka.classifiers.meta.AdaBoostM1, 94.6297
+weka.classifiers.trees.J48, ['-U'], 94.5525
+weka.classifiers.functions.MultilayerPerceptron, ['-L', '.5', '-M', '0', '-H', '0'], 55.8661
+weka.classifiers.bayes.NaiveBayes, ['-batch-size', '20'], 29.6716
+weka.classifiers.trees.RandomForest, ['-P', '100', '-I', '100'], 96.5293
+weka.classifiers.meta.AdaBoostM1, ['-P', '100', '-S', '0', '-I', '20'], 54.5654
+end

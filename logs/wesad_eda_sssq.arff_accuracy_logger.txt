@@ -1,0 +1,47 @@
+###@###wesad_eda_sssq.arff
+$$$, weka.classifiers.trees.J48
+['-C', '0.25'], 100.0
+['-C', '0.3'], 100.0
+['-C', '0.4'], 100.0
+['-C', '0.45'], 100.0
+['-U'], 100.0
+###@###wesad_eda_sssq.arff
+$$$, weka.classifiers.functions.MultilayerPerceptron
+['-L', '.3', '-M', '0', '-H', 'a'], 87.0692
+['-L', '.5', '-M', '0', '-H', 'a'], 85.5081
+['-L', '.7', '-M', '0', '-H', 'a'], 89.6907
+['-L', '.3', '-M', '.9', '-H', 'a'], 69.7791
+['-L', '.5', '-M', '.9', '-H', 'a'], 77.3196
+['-L', '.7', '-M', '.9', '-H', 'a'], 53.7261
+['-L', '.7', '-M', '.9', '-H', '0'], 49.6907
+['-L', '.3', '-M', '0', '-H', '0'], 57.3196
+['-L', '.5', '-M', '0', '-H', '0'], 57.8792
+['-L', '.7', '-M', '0', '-H', '0'], 58.2622
+###@###wesad_eda_sssq.arff
+$$$, weka.classifiers.bayes.NaiveBayes
+['-batch-size', '200'], 47.7761
+['-batch-size', '100'], 47.7761
+['-batch-size', '50'], 47.7761
+['-batch-size', '20'], 47.7761
+###@###wesad_eda_sssq.arff
+$$$, weka.classifiers.trees.RandomForest
+['-P', '100', '-I', '100'], 100.0
+['-P', '75', '-I', '100'], 100.0
+['-P', '50', '-I', '100'], 100.0
+['-P', '25', '-I', '100'], 100.0
+['-P', '50', '-I', '200'], 100.0
+###@###wesad_eda_sssq.arff
+$$$, weka.classifiers.meta.AdaBoostM1
+['-P', '100', '-S', '2', '-I', '10'], 52.106
+['-P', '100', '-S', '2', '-I', '20'], 52.106
+['-P', '100', '-S', '1', '-I', '10'], 52.106
+['-P', '100', '-S', '1', '-I', '20'], 52.106
+['-P', '100', '-S', '0', '-I', '10'], 52.106
+['-P', '100', '-S', '0', '-I', '20'], 52.106
+@@@, weka.classifiers.trees.J48, weka.classifiers.functions.MultilayerPerceptron, weka.classifiers.bayes.NaiveBayes, weka.classifiers.trees.RandomForest, weka.classifiers.meta.AdaBoostM1, 98.4094
+weka.classifiers.trees.J48, ['-U'], 100.0
+weka.classifiers.functions.MultilayerPerceptron, ['-L', '.7', '-M', '0', '-H', 'a'], 89.6907
+weka.classifiers.bayes.NaiveBayes, ['-batch-size', '20'], 47.7761
+weka.classifiers.trees.RandomForest, ['-P', '50', '-I', '200'], 100.0
+weka.classifiers.meta.AdaBoostM1, ['-P', '100', '-S', '0', '-I', '20'], 52.106
+end

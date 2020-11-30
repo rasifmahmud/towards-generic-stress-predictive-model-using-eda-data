@@ -1,0 +1,47 @@
+###@###wesad_separated.arff
+$$$, weka.classifiers.trees.J48
+['-C', '0.25'], 71.5573
+['-C', '0.3'], 71.5573
+['-C', '0.4'], 71.5573
+['-C', '0.45'], 71.5573
+['-U'], 70.3753
+###@###wesad_separated.arff
+$$$, weka.classifiers.functions.MultilayerPerceptron
+['-L', '.3', '-M', '0', '-H', 'a'], 58.0822
+['-L', '.5', '-M', '0', '-H', 'a'], 53.7382
+['-L', '.7', '-M', '0', '-H', 'a'], 73.2565
+['-L', '.3', '-M', '.9', '-H', 'a'], 67.8783
+['-L', '.5', '-M', '.9', '-H', 'a'], 52.9255
+['-L', '.7', '-M', '.9', '-H', 'a'], 58.0378
+['-L', '.7', '-M', '.9', '-H', '0'], 52.9255
+['-L', '.3', '-M', '0', '-H', '0'], 73.4929
+['-L', '.5', '-M', '0', '-H', '0'], 73.5963
+['-L', '.7', '-M', '0', '-H', '0'], 73.5077
+###@###wesad_separated.arff
+$$$, weka.classifiers.bayes.NaiveBayes
+['-batch-size', '200'], 52.9255
+['-batch-size', '100'], 52.9255
+['-batch-size', '50'], 52.9255
+['-batch-size', '20'], 52.9255
+###@###wesad_separated.arff
+$$$, weka.classifiers.trees.RandomForest
+['-P', '100', '-I', '100'], 56.6489
+['-P', '75', '-I', '100'], 42.9817
+['-P', '50', '-I', '100'], 41.0313
+['-P', '25', '-I', '100'], 41.4303
+['-P', '50', '-I', '200'], 42.1838
+###@###wesad_separated.arff
+$$$, weka.classifiers.meta.AdaBoostM1
+['-P', '100', '-S', '2', '-I', '10'], 74.3794
+['-P', '100', '-S', '2', '-I', '20'], 74.3794
+['-P', '100', '-S', '1', '-I', '10'], 74.3794
+['-P', '100', '-S', '1', '-I', '20'], 74.3794
+['-P', '100', '-S', '0', '-I', '10'], 74.3794
+['-P', '100', '-S', '0', '-I', '20'], 74.3794
+@@@, weka.classifiers.trees.J48, weka.classifiers.functions.MultilayerPerceptron, weka.classifiers.bayes.NaiveBayes, weka.classifiers.trees.RandomForest, weka.classifiers.meta.AdaBoostM1, 73.7884
+weka.classifiers.trees.J48, ['-C', '0.45'], 71.5573
+weka.classifiers.functions.MultilayerPerceptron, ['-L', '.5', '-M', '0', '-H', '0'], 73.5963
+weka.classifiers.bayes.NaiveBayes, ['-batch-size', '20'], 52.9255
+weka.classifiers.trees.RandomForest, ['-P', '100', '-I', '100'], 56.6489
+weka.classifiers.meta.AdaBoostM1, ['-P', '100', '-S', '0', '-I', '20'], 74.3794
+end

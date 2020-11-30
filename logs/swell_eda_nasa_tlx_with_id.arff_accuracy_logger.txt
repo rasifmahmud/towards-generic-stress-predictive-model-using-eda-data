@@ -1,0 +1,47 @@
+###@###swell_eda_nasa_tlx_with_id.arff
+$$$, weka.classifiers.trees.J48
+['-C', '0.25'], 99.9289
+['-C', '0.3'], 99.9289
+['-C', '0.4'], 99.9492
+['-C', '0.45'], 99.9492
+['-U'], 99.9492
+###@###swell_eda_nasa_tlx_with_id.arff
+$$$, weka.classifiers.functions.MultilayerPerceptron
+['-L', '.3', '-M', '0', '-H', 'a'], 71.7027
+['-L', '.5', '-M', '0', '-H', 'a'], 80.4549
+['-L', '.7', '-M', '0', '-H', 'a'], 64.8188
+['-L', '.3', '-M', '.9', '-H', 'a'], 54.2593
+['-L', '.5', '-M', '.9', '-H', 'a'], 40.1056
+['-L', '.7', '-M', '.9', '-H', 'a'], 30.663
+['-L', '.7', '-M', '.9', '-H', '0'], 43.5679
+['-L', '.3', '-M', '0', '-H', '0'], 39.6284
+['-L', '.5', '-M', '0', '-H', '0'], 43.9943
+['-L', '.7', '-M', '0', '-H', '0'], 44.6746
+###@###swell_eda_nasa_tlx_with_id.arff
+$$$, weka.classifiers.bayes.NaiveBayes
+['-batch-size', '200'], 38.7044
+['-batch-size', '100'], 38.7044
+['-batch-size', '50'], 38.7044
+['-batch-size', '20'], 38.7044
+###@###swell_eda_nasa_tlx_with_id.arff
+$$$, weka.classifiers.trees.RandomForest
+['-P', '100', '-I', '100'], 99.9492
+['-P', '75', '-I', '100'], 99.9594
+['-P', '50', '-I', '100'], 99.9391
+['-P', '25', '-I', '100'], 99.9188
+['-P', '50', '-I', '200'], 99.9594
+###@###swell_eda_nasa_tlx_with_id.arff
+$$$, weka.classifiers.meta.AdaBoostM1
+['-P', '100', '-S', '2', '-I', '10'], 42.5627
+['-P', '100', '-S', '2', '-I', '20'], 42.5627
+['-P', '100', '-S', '1', '-I', '10'], 42.5627
+['-P', '100', '-S', '1', '-I', '20'], 42.5627
+['-P', '100', '-S', '0', '-I', '10'], 42.5627
+['-P', '100', '-S', '0', '-I', '20'], 42.5627
+@@@, weka.classifiers.trees.J48, weka.classifiers.functions.MultilayerPerceptron, weka.classifiers.bayes.NaiveBayes, weka.classifiers.trees.RandomForest, weka.classifiers.meta.AdaBoostM1, 87.8059
+weka.classifiers.trees.J48, ['-U'], 99.9492
+weka.classifiers.functions.MultilayerPerceptron, ['-L', '.5', '-M', '0', '-H', 'a'], 80.4549
+weka.classifiers.bayes.NaiveBayes, ['-batch-size', '20'], 38.7044
+weka.classifiers.trees.RandomForest, ['-P', '50', '-I', '200'], 99.9594
+weka.classifiers.meta.AdaBoostM1, ['-P', '100', '-S', '0', '-I', '20'], 42.5627
+end

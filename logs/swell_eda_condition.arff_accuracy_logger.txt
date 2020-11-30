@@ -1,0 +1,47 @@
+###@###swell_eda_condition.arff
+$$$, weka.classifiers.trees.J48
+['-C', '0.25'], 97.3703
+['-C', '0.3'], 97.3703
+['-C', '0.4'], 97.3703
+['-C', '0.45'], 97.3703
+['-U'], 97.3398
+###@###swell_eda_condition.arff
+$$$, weka.classifiers.functions.MultilayerPerceptron
+['-L', '.3', '-M', '0', '-H', 'a'], 63.1638
+['-L', '.5', '-M', '0', '-H', 'a'], 62.3921
+['-L', '.7', '-M', '0', '-H', 'a'], 62.0266
+['-L', '.3', '-M', '.9', '-H', 'a'], 55.2036
+['-L', '.5', '-M', '.9', '-H', 'a'], 51.8022
+['-L', '.7', '-M', '.9', '-H', 'a'], 17.8191
+['-L', '.7', '-M', '.9', '-H', '0'], 53.8126
+['-L', '.3', '-M', '0', '-H', '0'], 52.4926
+['-L', '.5', '-M', '0', '-H', '0'], 52.6348
+['-L', '.7', '-M', '0', '-H', '0'], 52.8379
+###@###swell_eda_condition.arff
+$$$, weka.classifiers.bayes.NaiveBayes
+['-batch-size', '200'], 35.0797
+['-batch-size', '100'], 35.0797
+['-batch-size', '50'], 35.0797
+['-batch-size', '20'], 35.0797
+###@###swell_eda_condition.arff
+$$$, weka.classifiers.trees.RandomForest
+['-P', '100', '-I', '100'], 96.8017
+['-P', '75', '-I', '100'], 96.7712
+['-P', '50', '-I', '100'], 96.7916
+['-P', '25', '-I', '100'], 96.9743
+['-P', '50', '-I', '200'], 96.7712
+###@###swell_eda_condition.arff
+$$$, weka.classifiers.meta.AdaBoostM1
+['-P', '100', '-S', '2', '-I', '10'], 50.5838
+['-P', '100', '-S', '2', '-I', '20'], 50.5838
+['-P', '100', '-S', '1', '-I', '10'], 50.5838
+['-P', '100', '-S', '1', '-I', '20'], 50.5838
+['-P', '100', '-S', '0', '-I', '10'], 50.5838
+['-P', '100', '-S', '0', '-I', '20'], 50.5838
+@@@, weka.classifiers.trees.J48, weka.classifiers.functions.MultilayerPerceptron, weka.classifiers.bayes.NaiveBayes, weka.classifiers.trees.RandomForest, weka.classifiers.meta.AdaBoostM1, 96.7306
+weka.classifiers.trees.J48, ['-C', '0.45'], 97.3703
+weka.classifiers.functions.MultilayerPerceptron, ['-L', '.3', '-M', '0', '-H', 'a'], 63.1638
+weka.classifiers.bayes.NaiveBayes, ['-batch-size', '20'], 35.0797
+weka.classifiers.trees.RandomForest, ['-P', '25', '-I', '100'], 96.9743
+weka.classifiers.meta.AdaBoostM1, ['-P', '100', '-S', '0', '-I', '20'], 50.5838
+end

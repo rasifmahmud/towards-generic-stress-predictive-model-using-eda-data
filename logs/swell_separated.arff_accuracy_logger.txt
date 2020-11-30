@@ -1,0 +1,47 @@
+###@###separated.arff
+$$$, weka.classifiers.trees.J48
+['-C', '0.25'], 40.302
+['-C', '0.3'], 40.302
+['-C', '0.4'], 39.5152
+['-C', '0.45'], 39.5152
+['-U'], 39.1045
+###@###separated.arff
+$$$, weka.classifiers.functions.MultilayerPerceptron
+['-L', '.3', '-M', '0', '-H', 'a'], 51.4144
+['-L', '.5', '-M', '0', '-H', 'a'], 54.7001
+['-L', '.7', '-M', '0', '-H', 'a'], 54.5439
+['-L', '.3', '-M', '.9', '-H', 'a'], 55.5215
+['-L', '.5', '-M', '.9', '-H', 'a'], 55.9148
+['-L', '.7', '-M', '.9', '-H', 'a'], 53.9481
+['-L', '.7', '-M', '.9', '-H', '0'], 56.7478
+['-L', '.3', '-M', '0', '-H', '0'], 55.0992
+['-L', '.5', '-M', '0', '-H', '0'], 52.7448
+['-L', '.7', '-M', '0', '-H', '0'], 52.3168
+###@###separated.arff
+$$$, weka.classifiers.bayes.NaiveBayes
+['-batch-size', '200'], 29.716
+['-batch-size', '100'], 29.716
+['-batch-size', '50'], 29.716
+['-batch-size', '20'], 29.716
+###@###separated.arff
+$$$, weka.classifiers.trees.RandomForest
+['-P', '100', '-I', '100'], 48.9501
+['-P', '75', '-I', '100'], 49.8525
+['-P', '50', '-I', '100'], 50.6739
+['-P', '25', '-I', '100'], 50.8185
+['-P', '50', '-I', '200'], 50.4946
+###@###separated.arff
+$$$, weka.classifiers.meta.AdaBoostM1
+['-P', '100', '-S', '2', '-I', '10'], 54.5902
+['-P', '100', '-S', '2', '-I', '20'], 54.5902
+['-P', '100', '-S', '1', '-I', '10'], 54.5902
+['-P', '100', '-S', '1', '-I', '20'], 54.5902
+['-P', '100', '-S', '0', '-I', '10'], 54.5902
+['-P', '100', '-S', '0', '-I', '20'], 54.5902
+@@@, weka.classifiers.trees.J48, weka.classifiers.functions.MultilayerPerceptron, weka.classifiers.bayes.NaiveBayes, weka.classifiers.trees.RandomForest, weka.classifiers.meta.AdaBoostM1, 54.8794
+weka.classifiers.trees.J48, ['-C', '0.3'], 40.302
+weka.classifiers.functions.MultilayerPerceptron, ['-L', '.7', '-M', '.9', '-H', '0'], 56.7478
+weka.classifiers.bayes.NaiveBayes, ['-batch-size', '20'], 29.716
+weka.classifiers.trees.RandomForest, ['-P', '25', '-I', '100'], 50.8185
+weka.classifiers.meta.AdaBoostM1, ['-P', '100', '-S', '0', '-I', '20'], 54.5902
+end

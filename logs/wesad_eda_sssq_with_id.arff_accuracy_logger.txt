@@ -1,0 +1,47 @@
+###@###wesad_eda_sssq_with_id.arff
+$$$, weka.classifiers.trees.J48
+['-C', '0.25'], 100.0
+['-C', '0.3'], 100.0
+['-C', '0.4'], 100.0
+['-C', '0.45'], 100.0
+['-U'], 100.0
+###@###wesad_eda_sssq_with_id.arff
+$$$, weka.classifiers.functions.MultilayerPerceptron
+['-L', '.3', '-M', '0', '-H', 'a'], 91.2813
+['-L', '.5', '-M', '0', '-H', 'a'], 92.106
+['-L', '.7', '-M', '0', '-H', 'a'], 90.0442
+['-L', '.3', '-M', '.9', '-H', 'a'], 74.6097
+['-L', '.5', '-M', '.9', '-H', 'a'], 71.3991
+['-L', '.7', '-M', '.9', '-H', 'a'], 69.2194
+['-L', '.7', '-M', '.9', '-H', '0'], 45.5081
+['-L', '.3', '-M', '0', '-H', '0'], 61.7673
+['-L', '.5', '-M', '0', '-H', '0'], 62.651
+['-L', '.7', '-M', '0', '-H', '0'], 62.1208
+###@###wesad_eda_sssq_with_id.arff
+$$$, weka.classifiers.bayes.NaiveBayes
+['-batch-size', '200'], 49.6907
+['-batch-size', '100'], 49.6907
+['-batch-size', '50'], 49.6907
+['-batch-size', '20'], 49.6907
+###@###wesad_eda_sssq_with_id.arff
+$$$, weka.classifiers.trees.RandomForest
+['-P', '100', '-I', '100'], 100.0
+['-P', '75', '-I', '100'], 100.0
+['-P', '50', '-I', '100'], 100.0
+['-P', '25', '-I', '100'], 100.0
+['-P', '50', '-I', '200'], 100.0
+###@###wesad_eda_sssq_with_id.arff
+$$$, weka.classifiers.meta.AdaBoostM1
+['-P', '100', '-S', '2', '-I', '10'], 46.5096
+['-P', '100', '-S', '2', '-I', '20'], 46.5096
+['-P', '100', '-S', '1', '-I', '10'], 46.5096
+['-P', '100', '-S', '1', '-I', '20'], 46.5096
+['-P', '100', '-S', '0', '-I', '10'], 46.5096
+['-P', '100', '-S', '0', '-I', '20'], 46.5096
+@@@, weka.classifiers.trees.J48, weka.classifiers.functions.MultilayerPerceptron, weka.classifiers.bayes.NaiveBayes, weka.classifiers.trees.RandomForest, weka.classifiers.meta.AdaBoostM1, 98.8807
+weka.classifiers.trees.J48, ['-U'], 100.0
+weka.classifiers.functions.MultilayerPerceptron, ['-L', '.5', '-M', '0', '-H', 'a'], 92.106
+weka.classifiers.bayes.NaiveBayes, ['-batch-size', '20'], 49.6907
+weka.classifiers.trees.RandomForest, ['-P', '50', '-I', '200'], 100.0
+weka.classifiers.meta.AdaBoostM1, ['-P', '100', '-S', '0', '-I', '20'], 46.5096
+end

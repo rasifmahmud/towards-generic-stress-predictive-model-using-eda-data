@@ -1,0 +1,47 @@
+###@###swell_eda_nasa_tlx.arff
+$$$, weka.classifiers.trees.J48
+['-C', '0.25'], 95.8168
+['-C', '0.3'], 95.7965
+['-C', '0.4'], 95.827
+['-C', '0.45'], 95.827
+['-U'], 95.8168
+###@###swell_eda_nasa_tlx.arff
+$$$, weka.classifiers.functions.MultilayerPerceptron
+['-L', '.3', '-M', '0', '-H', 'a'], 55.9854
+['-L', '.5', '-M', '0', '-H', 'a'], 51.5382
+['-L', '.7', '-M', '0', '-H', 'a'], 49.9239
+['-L', '.3', '-M', '.9', '-H', 'a'], 41.4154
+['-L', '.5', '-M', '.9', '-H', 'a'], 40.3087
+['-L', '.7', '-M', '.9', '-H', 'a'], 39.9431
+['-L', '.7', '-M', '.9', '-H', '0'], 36.8159
+['-L', '.3', '-M', '0', '-H', '0'], 38.542
+['-L', '.5', '-M', '0', '-H', '0'], 38.1968
+['-L', '.7', '-M', '0', '-H', '0'], 39.2019
+###@###swell_eda_nasa_tlx.arff
+$$$, weka.classifiers.bayes.NaiveBayes
+['-batch-size', '200'], 38.3389
+['-batch-size', '100'], 38.3389
+['-batch-size', '50'], 38.3389
+['-batch-size', '20'], 38.3389
+###@###swell_eda_nasa_tlx.arff
+$$$, weka.classifiers.trees.RandomForest
+['-P', '100', '-I', '100'], 94.5172
+['-P', '75', '-I', '100'], 94.639
+['-P', '50', '-I', '100'], 94.7609
+['-P', '25', '-I', '100'], 95.0553
+['-P', '50', '-I', '200'], 94.8117
+###@###swell_eda_nasa_tlx.arff
+$$$, weka.classifiers.meta.AdaBoostM1
+['-P', '100', '-S', '2', '-I', '10'], 39.273
+['-P', '100', '-S', '2', '-I', '20'], 39.273
+['-P', '100', '-S', '1', '-I', '10'], 39.273
+['-P', '100', '-S', '1', '-I', '20'], 39.273
+['-P', '100', '-S', '0', '-I', '10'], 39.273
+['-P', '100', '-S', '0', '-I', '20'], 39.273
+@@@, weka.classifiers.trees.J48, weka.classifiers.functions.MultilayerPerceptron, weka.classifiers.bayes.NaiveBayes, weka.classifiers.trees.RandomForest, weka.classifiers.meta.AdaBoostM1, 65.367
+weka.classifiers.trees.J48, ['-C', '0.45'], 95.827
+weka.classifiers.functions.MultilayerPerceptron, ['-L', '.3', '-M', '0', '-H', 'a'], 55.9854
+weka.classifiers.bayes.NaiveBayes, ['-batch-size', '20'], 38.3389
+weka.classifiers.trees.RandomForest, ['-P', '25', '-I', '100'], 95.0553
+weka.classifiers.meta.AdaBoostM1, ['-P', '100', '-S', '0', '-I', '20'], 39.273
+end
